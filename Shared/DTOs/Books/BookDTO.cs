@@ -1,10 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Domain
+﻿namespace Shared.DTOs.Books
 {
-    public class Book : Entity
+    public class BookDTO
     {
-        [Key]
         public int Id { get; set; }
         public string Title { get; set; }
         public string Author { get; set; }
